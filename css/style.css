@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: url("https://ychef.files.bbci.co.uk/976x549/p0b16s27.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1128px;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.row-nav {
+    justify-content: space-between;
+}
+
+.nav {
+    align-self: flex-start;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item + .nav-item {
+    margin-left: .6em;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-text {
+    color: #fff;
+    margin: 0 auto;
+    padding: 9em 0;
+    text-align: center;
+    width: 60%;
+}
+
+.hero-span {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.col {
+    background: gray;
+    padding: .75em .8em;
+}
+
+.col:focus, .col:hover {
+    opacity: .75;
+}
+
+.col-sm {
+    background: yellow;
+}
+
+.col + .col {
+    margin-left: .1em;
+}
+
+.ch {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.flight {
+    color: #fff;
+}
